@@ -1,0 +1,15 @@
+current directory: /home/tomosia/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/tomosia/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/tomosia/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20220511-8520-5x486q.rb extconf.rb
+creating Makefile
+
+current directory: /home/tomosia/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/tomosia/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/tomosia/sample_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20220511-8520-1ab3yv3/skiptrace/internal
